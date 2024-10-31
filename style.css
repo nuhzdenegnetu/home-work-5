@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+li{
+    list-style: none;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+body {
+    background-color: #13151E;
+    font-size: 30px;
+    font-family: "Droid Sans", cursive;
+    color: #ffffff;
+}
+.list-nav{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.navigation{
+    height: 120px;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.container{
+    width: min(100% - 40px, 990px);
+    margin-inline: auto;
+}
+.nav-about{
+    text-align: center;
+    margin-top: 125px;
+    font-size: 48px;
+}
+.inf{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 36px;
+}
+.inf-seller{
+    margin-top: 30px;
+    border: 3px aqua solid;
+    text-align: center;
+}
+.inf-bought{
+    margin-top: 30px;
+    border: 3px aqua solid;
+    text-align: center;
+}
+.nav {
+    text-align: center;
+    margin-top: 125px;
+    font-size: 46px;
+}
+.form{
+    text-align: center;
+    margin-top: 60px;
+}
+.form p{
+    font-size: 40px;
+}
+form{
+    text-align: center;
+    margin-top: 60px;
+}
+input,select,textarea{
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background: #13151E;
+    outline: none;
+    height: 24px;
+    width: 165px;
+    color: #cccccc;
+    font-size: 16px;
+}
+.form button{
+    color: aqua;
+    font-size: 32px;
+    background-color: #13151E;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: white 1px solid;
+    margin-bottom: 25px;
+}
+#nav{
+    text-align: center;
+    margin-top: 125px;
+    font-size: 46px;
+}
+.fast-question{
+    text-align: center;
+    border: aqua 1px solid;
+    margin-top: 50px;
+}
+.fast-question a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.answer{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.answer li{
+    width: 600px;
+    margin: 3%;
+    border: 3px solid;
+}
+.answer p{
+    max-width: 100%;
+}
+.short-question{
+    text-align: center;
+    color: blue;
+}
+.answer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+.greetings{
+    text-align: center;
+    margin-top: 250px;
+    font-size: 86px;
+}
+.thanksgiving{
+    text-align: center;
+}
+.thanks-user{
+    list-style-type: none;
+}
+.thanks-list{
+    margin-top: 100px;
+}
+.offers{
+    text-align: center;
+    margin-top: 125px;
+    font-size: 46px;
+}
+.product{
+    text-align: center;
+}
+.list-product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+.list-product li{
+    align-content: center;
+    width: 335px;
+}
+.sell-item{
+    padding-top: 50px;
+}
